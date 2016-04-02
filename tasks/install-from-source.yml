@@ -8,7 +8,6 @@
     - zlib-devel
     - perl-devel
     - openssl-devel
-    - subversion-perl
     - make
     - gcc
   when: ansible_os_family == 'RedHat'
