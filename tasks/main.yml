@@ -23,4 +23,4 @@
   when: git_install_from_source == true
 
 - name: copy git config
-  template: src= dest=/etc/gitconfig
+  template: src=gitconfig.j2 dest=/etc/gitconfig
